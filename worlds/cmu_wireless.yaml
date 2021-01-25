@@ -1,0 +1,24 @@
+model:
+  name: CMU
+robot:
+  name: mobile_base
+floor_list:
+#  - floor: -1 # B1F
+#    height: -5.68 # based on mobile_base in /gazebo/model_state
+#  - floor: 0 # 1F
+#    height: 0.0 # tentative value (to be updated)
+#  - floor: 1 # 2F
+#    height: 5.74 # based on mobile_base in /gazebo/model_state
+#  - floor: 2 # 3F
+#    height: 11.5 # tentative value (to be updated)
+  - floor: 3 # 4F
+    height: 0.00 # based on mobile_base in /gazebo/model_state
+beacons:
+  file: ../models/beacons_cmu.csv
+  parameters:
+    n: 2.0
+    A: -61.0 # output_power = -8 -> -69
+    fa: 15.0
+    fb: 4.0
+    sigma: 4.0
+    rmin: 1.0

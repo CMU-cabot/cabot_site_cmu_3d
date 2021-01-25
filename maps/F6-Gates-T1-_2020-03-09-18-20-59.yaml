@@ -1,0 +1,6 @@
+image: F6-Gates-T1-_2020-03-09-18-20-59.pgm
+resolution: 0.05
+origin: [-93.7886, -60.5992, 0.0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.196
