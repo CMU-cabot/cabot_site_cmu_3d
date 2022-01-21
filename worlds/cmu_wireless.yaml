@@ -1,5 +1,5 @@
 model:
-  name: CMU
+  name: ground_plane # the model name the beacon position data are registered.
 robot:
   name: mobile_base
 floor_list:
@@ -14,7 +14,7 @@ floor_list:
   - floor: 3 # 4F
     height: 0.00 # based on mobile_base in /gazebo/model_state
 beacons:
-  file: ../models/beacons_cmu.csv
+  file: ../models/beacons_cmu_all.csv
   parameters:
     n: 2.0
     A: -61.0 # output_power = -8 -> -69

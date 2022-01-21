@@ -1,0 +1,24 @@
+# anchor of 4fr-gazebo
+anchor:
+  latitude: 40.443259
+  longitude: -79.945874
+  rotate: 15.1
+  floor: 3
+map_list:
+#
+# floor: F2=1, F3=2, F4=3, F5=4, F6=5
+# area: Gates=0, NSH=1, Wean=2
+# node_id: carto<area>_<floor>
+# frame_id: map_<node_id>
+#
+# F4-NSH-Gates-Wean-T2-_2020-03-10-17-15-31
+  - node_id: "carto1_3"
+    frame_id: "map_carto1_3"
+    latitude: 40.443259
+    longitude: -79.945874
+    rotate: 15.1
+    floor: 3
+    area: 0
+    load_state_filename: "package://cabot_site_cmu_3d/maps/gazebo/cmu_4fr-gazebo_2022-01-22.pbstream"
+    samples_filename: "package://cabot_site_cmu_3d/maps/gazebo/cmu_4fr-gazebo_2022-01-22.loc.samples.json"
+    map_filename: "package://cabot_site_cmu_3d/maps/gazebo/cmu_4fr-gazebo_2022-01-22.yaml"
