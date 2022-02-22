@@ -1,6 +1,6 @@
 iam_apikey: oclfrEaCEB5V_zb2oBrzR1WnSNH2BWonZL63Aq55WXEB
-map_server_host: cmu-map.mybluemix.net/map
+map_server_host: localhost:9090/map
 initial_floor: 4
 #language: ja
 lookup_dist: 1000
-protocol: https
+protocol: http
